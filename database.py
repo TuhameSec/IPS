@@ -1,5 +1,6 @@
 import psycopg2
-from logging_config import logger
+from logging_config import configure_logging
+logger = configure_logging()
 import time
 from config import DB_CONFIG  
 
